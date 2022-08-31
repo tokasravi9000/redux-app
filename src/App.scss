@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Open+Sans:wght@500&family=Poppins:wght@400;900&display=swap');
+/*
+font-family: 'Mukta', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+/* define variables for the primary colors */
+$body_bg_color: #0B192E;
+$secondery_color: #8892b0;
+$btn_color: #64ffda;
+$card_bg: rgb(32, 83, 142, 0.3);
+$card_border: rgb(32, 83, 142);
+
+body {
+  background: $body_bg_color;
+  color: $secondery_color;
+  font-family: 'Open Sans', sans-serif;
+}
+h1 {
+  font-family: 'Poppins', sans-serif;
+}
+h2 {
+  font-weight: 600;
+  color: #a8b2d1;
+  line-height: 1.1;
+  font-family: 'Poppins', sans-serif;
+}
+h3 {
+  color: $secondery_color;
+  margin-top: 10px;
+  line-height: 0.9;
+  font-family: 'Poppins', sans-serif;
+}
+h4 {
+  font-family: 'Open Sans', sans-serif;
+}
+h5 {
+  font-family: 'Open Sans', sans-serif;
+}
+h6 {
+  font-family: 'Open Sans', sans-serif;
+}
+.prod-title {
+  font-size: 20px;
+}
+.btn.btn-primary {
+  background: #2196F3;
+  color: #FFF;
+  border: #2196F3 1px solid;
+  padding: 8px 25px;
+  border-radius:5px; 
+}
+.active {
+  color: brown;
+}
+p {
+  color: $secondery_color;
+}
+.card {
+    background: $card_bg !important;
+    border: $card_border 1px solid;
+    width: 425px;
+    margin: 50px auto;
+}
+.logo {
+  color: $secondery_color;
+  font-family: 'Mukta', sans-serif;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+.logo:hover {
+  color: $secondery_color;
+}
+.logo span {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+}
+.big-heading {
+  margin: 0px;
+  font-size: clamp(40px, 8vw, 80px);
+}
+.btn {
+  color: $btn_color;
+    background-color: transparent;
+    border: 1px solid $btn_color;
+    border-radius: 4px;
+    padding: 1.25rem 1.75rem;
+    font-size: 14px;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+    
+}
+/*login page*/
+.login-page .login-block {
+  width: 425px;
+  margin: 50px auto;
+}
+.login-page .resultBox {
+  width: 425px;
+  margin: 50px auto;
+}
+.login-page .sign-up-link {
+  text-decoration: none;
+}
+
+/*Signup page*/
+.signup-page .login-link {
+  text-decoration: none;
+}
+
+/*About*/
+.myName {
+  color:$btn_color;
+  margin-top: 50px;
+}
+.ab__descrip p {
+  margin: 20px 0px 0px;
+  max-width: 540px;
+}
+.work__tech__list {
+  padding-left: 0;
+}
+/*Navbar*/
+.navbar.bg-dark {
+  background: none !important;
+}
+.navbar .navbar-nav .nav-item {
+  a {
+  color: $secondery_color;
+  text-decoration: none;
+  padding: 5px 12px;}
+  &:hover {
+    color:$btn_color;  
+  }
+  a.active {
+    color:$btn_color; 
+  }
+}
+/*.navbar .navbar-nav .nav-item a:hover {
+  color:$btn_color;
+}*/
+/*Footer*/
+.footer {
+  background: $body_bg_color;
+  padding: 12px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 0;
+}
+
+.footer .des__copy {
+  font-size: 12px;
+}
+
+/*Page Not Found*/
+.pnf__page .pnf__block {
+  margin: 0 auto;
+  width: 50%;
+}
+.pnf__page h1.h-landmark {
+  color:#64ffda;
+  font-size: 55px;
+}
+.pnf__page .p-landmark-sub {
+  font-size: 25px;
+}
